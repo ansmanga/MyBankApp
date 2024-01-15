@@ -120,10 +120,8 @@
                     </excludes>
                 </configuration>
             </plugin>
-        </plugins>
 
-        <plugins> <!-- Add this section for Maven Compiler Plugin -->
-            <plugin>
+			 <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
@@ -133,6 +131,9 @@
                 </configuration>
             </plugin>
         </plugins>
+
+        
+           
     </build>
 
 </project>
